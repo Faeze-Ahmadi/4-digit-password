@@ -1,7 +1,3 @@
-password = input("Enter the 4-digit password: ")
-lst = []
+password = [int(i) for i in input("Enter the 4-digit password: ")]
 if len(password) == 4:
-    for i in range(len(password)):
-        i.append(lst)
-
-print(lst)
+    print(password)
