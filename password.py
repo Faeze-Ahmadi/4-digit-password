@@ -12,3 +12,5 @@ def password_restrictions(num):
                                 return password
 
 print(password_restrictions(password))
+
+# fond multiple correct passwords in a numeric range
