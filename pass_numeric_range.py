@@ -9,7 +9,13 @@ for i in range(1000, 9999):
 
     if digit_3 / digit_1 != 4:
         continue
-    if digit_4 % 2 != 0:
+    if digit_4 % 2 == 0:
         continue
-    
+    if digit_1 - digit_4 != 1:
+        continue
+    if digit_2 - digit_1 != 3:
+        continue
+    if digit_2 / digit_1 != 2.5:
+        continue
+    print(i)
 
