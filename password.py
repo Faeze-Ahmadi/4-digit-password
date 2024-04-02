@@ -1,3 +1,5 @@
+# find a number with input for correct password
+
 password = [int(i) for i in input("Enter the 4-digit password: ")]
 
 def password_restrictions(num):
