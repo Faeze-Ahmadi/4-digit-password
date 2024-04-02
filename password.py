@@ -4,5 +4,6 @@ def password_restrictions(num):
     if len(password) == 4:
         if password[2] / password[0] == 4:
             if password[-1] % 2 != 0:
-                print(password_restrictions(password))
+                return password
 
+print(password_restrictions(password))
