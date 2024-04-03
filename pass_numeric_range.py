@@ -1,4 +1,4 @@
-# find multiple correct passwords in a numeric range
+# finding multiple correct passwords in a numeric range
 
 for i in range(1000, 9999):
     i_str = str(i)
